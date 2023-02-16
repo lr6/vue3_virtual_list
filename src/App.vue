@@ -1,15 +1,16 @@
 <script setup>
 import { ref } from 'vue'
-import VirtualList from './components/VirtualList.vue'
+import { faker } from '@faker-js/faker'
+import VirtualListGrade from './components/VirtualListGrade.vue'
 const list = ref([])
-const count = 100
+const count = 10_000
 for(let i = 0; i < count; i++) {
-  list.value.push(i)
+  list.value.push(faker.lorem.sentences())
 }
 </script>
 
 <template>
-  <VirtualList :list_data="list" :item_size="50" />
+  <VirtualListGrade :list_data="list" />
 </template>
 
 <style scoped>

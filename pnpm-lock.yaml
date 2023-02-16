@@ -1,11 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@faker-js/faker': 7.6.0
   '@vitejs/plugin-vue': ^4.0.0
   vite: ^4.1.0
   vue: ^3.2.45
 
 dependencies:
+  '@faker-js/faker': 7.6.0
   vue: 3.2.47
 
 devDependencies:
@@ -234,6 +236,11 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@faker-js/faker/7.6.0:
+    resolution: {integrity: sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==}
+    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+    dev: false
 
   /@vitejs/plugin-vue/4.0.0_vite@4.1.1+vue@3.2.47:
     resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
